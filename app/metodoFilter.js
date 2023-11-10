@@ -1,6 +1,3 @@
-// const btnFiltrarLivrosDeFront = document.getElementById('btnFiltrarLivrosFront');
-// btnFiltrarLivrosDeFront.addEventListener('click', filtrarLivros);
-
 const botoes = document.querySelectorAll('.btn');
 botoes.forEach(btn => btn.addEventListener('click', filtrarLivros));
 
